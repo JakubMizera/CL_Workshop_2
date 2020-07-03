@@ -104,6 +104,7 @@ h1{
     border-radius: 40px;
     padding: 22px 157px;
     transition: 0.5s;
+    box-shadow: 5px 10px 14px #07ACE629;
 }
 
 .btn-1:hover{
@@ -111,3 +112,53 @@ h1{
 }
 
 /*Opener style end*/
+/*Stats style start*/
+
+
+.stats{
+    height: 531px;
+}
+
+.stats-container{
+    margin: 0 auto;
+    width: 1352px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h2{
+    font-size: 2rem;
+    text-align: center;
+    color: #000000;
+    margin-top: 100px;
+}
+
+.circles-container{
+    display: flex;
+    justify-content: space-between;
+}
+
+.circle-box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.circle{
+    border-radius: 50%;
+    width: 63px;
+    height: 63px;
+}
+
+.red{
+    background-color: #FB3B64;
+}
+
+.blue{
+    background-color: #08A6E4;
+}
+
+.green{
+    background-color: #55DFB4;
+}
