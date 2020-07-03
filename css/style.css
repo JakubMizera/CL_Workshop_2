@@ -316,3 +316,46 @@ h4{
 
 /* box 2 end*/
 
+.box-type-2{
+    height: 370px;
+    width: 1124px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.brand{
+    background-color: #ffffff;
+    border: 1px solid var(--border-color);
+    border-radius: 5px;
+    width: 623px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.speaker{
+    border: 1px solid var(--border-color);
+    border-radius: 5px;
+    background-color: #55DFB4;
+    width: 440px;
+}
+
+.brand h4{
+    margin-top: 69px;
+    margin-left: 35px;
+    width: 348px;
+}
+
+.brand p{
+    margin-left: 35px;
+    width: 553px;
+    margin-top: 30px;
+}
+
+.speaker img{
+    max-width: 295px;
+    max-height: 207px;
+    position: relative;
+    top: 98px;
+    left: 62px;
+}
