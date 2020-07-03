@@ -64,6 +64,7 @@ header{
 
 .page-nav-list li a:hover{
     color: #000000;
+    border-bottom: 3px solid #08A6E4;
 }
 
 /*header style end*/
@@ -168,4 +169,22 @@ h2{
 
 .green{
     background-color: #55DFB4;
+}
+
+h3{
+    font-weight: 800;
+    font-size: 20px;
+    text-align: center;
+}
+
+.circle-box p{
+    color: #A5A5A5;
+    text-align: center;
+    font-size: 17px;
+}
+
+.circle img{
+    position: relative;
+    top: 10px;
+    left: 30px;
 }
