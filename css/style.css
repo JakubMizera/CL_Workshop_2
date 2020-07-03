@@ -22,7 +22,7 @@ a{
 header{
     max-width: 100%;
     background-color: white;
-    height: 200px;
+    /*height: 200px;*/
 }
 
 .container{
@@ -76,7 +76,7 @@ header{
     flex-direction: column;
     align-items: center;
     justify-content: space-between;
-    height: 612px;
+    height: 742px;
     border-left: 2px solid #F7F7F7;
     border-right: 2px solid #F7F7F7;
 }
@@ -86,6 +86,7 @@ h1{
     font-size: 49px;
     text-align: center;
     color: #000000;
+    margin-top: 130px;
 }
 
 .opener p{
@@ -93,6 +94,7 @@ h1{
     color: #000000;
     text-align: center;
     font-size: 1rem;
+    margin-top: 20px;
 }
 
 .btn-1{
@@ -105,6 +107,7 @@ h1{
     padding: 22px 157px;
     transition: 0.5s;
     box-shadow: 5px 10px 14px #07ACE629;
+    margin-top: 38px;
 }
 
 .btn-1:hover{
@@ -125,6 +128,8 @@ h1{
     display: flex;
     flex-direction: column;
     align-items: center;
+    border-left: 2px solid #F7F7F7;
+    border-right: 2px solid #F7F7F7;
 }
 
 h2{
@@ -136,10 +141,12 @@ h2{
 
 .circles-container{
     display: flex;
-    justify-content: space-between;
+    margin-top: 100px;
 }
 
 .circle-box{
+    flex-grow: 1;
+    width: 300px;
     display: flex;
     flex-direction: column;
     align-items: center;
