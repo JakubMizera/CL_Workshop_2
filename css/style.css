@@ -13,6 +13,10 @@ body{
     font-family: 'Raleway', 'Open Sans', sans-serif;
 }
 
+a{
+    text-decoration: none;
+}
+
 /*header style start*/
 
 header{
@@ -29,7 +33,7 @@ header{
     align-items: center;
     height: 70px;
     box-shadow: 0 3px 6px #00000029;
-    border: 1px solid #00000029;
+    border: 2px solid #F7F7F7;
 }
 
 .page-logo{
@@ -65,3 +69,45 @@ header{
 /*header style end*/
 /*Opener style start*/
 
+.opener{
+    margin: 0 auto;
+    width: 1352px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    height: 612px;
+    border-left: 2px solid #F7F7F7;
+    border-right: 2px solid #F7F7F7;
+}
+
+h1{
+    text-transform: capitalize;
+    font-size: 49px;
+    text-align: center;
+    color: #000000;
+}
+
+.opener p{
+    font-family: "Open Sans";
+    color: #000000;
+    text-align: center;
+    font-size: 1rem;
+}
+
+.btn-1{
+    font-family: "Open Sans";
+    text-align: center;
+    color: #ffffff;
+    font-weight: 700;
+    background-color: #08A6E4;
+    border-radius: 40px;
+    padding: 22px 157px;
+    transition: 0.5s;
+}
+
+.btn-1:hover{
+    background-color: #2ac8f6;    
+}
+
+/*Opener style end*/
