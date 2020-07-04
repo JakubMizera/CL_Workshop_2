@@ -520,6 +520,7 @@ form section{
     display: flex;
     flex-direction: column;
     align-items: flex-start;
+    width: 350px;
 }
 
 .informations > p{
@@ -568,4 +569,55 @@ form section{
 
 .phone{
     margin-left: 20px;
+}
+
+input[type="text"],
+input[type="email"]
+{
+    width: 100%;
+    box-sizing: border-box;
+    border-bottom: 1px solid #000000;
+}
+
+.insert label{
+    font-family: "Open Sans";
+    font-size: 11px;
+    color: #08A6E4;
+    text-align: left;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+
+
+
+
+/*contact end*/
+/*footer start*/
+
+.footer{
+    width: 1352px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid var(--border-color);
+    box-shadow: 0px -5px 40px  #00000029;
+    background: #F7F7F7;
+}
+
+.foot-container p{
+    margin: 6px 0 10px 136px;
+    font-size: 11px;
+    text-align: left;
+    color: #A5A5A5;
+}
+
+.icons{
+    display: flex;
+    align-items: center;
+    margin-right: 136px;
+}
+
+.fb{
+    margin-right: 20px;
 }
