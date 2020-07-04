@@ -367,6 +367,9 @@ h4{
     flex-direction: column;
     margin: 0 auto;
     width: 1352px;
+    height: 800px;
+    border-left: 1px solid var(--border-color);
+    border-right: 1px solid var(--border-color);
 }
 
 .price{
@@ -417,6 +420,8 @@ h5{
     font-family: "Open Sans";
     font-weight: 700;
     font-size: 13px;
+    position: relative;
+    top: 60px;
 }
 
 .style-2{
@@ -429,6 +434,7 @@ h5{
 
 .style-2 .btn-2{
     background-color: #07ACE6;
+    top: 60px;
 }
 
 .style-3{
@@ -441,4 +447,31 @@ h5{
 
 .style-3 .btn-2{
     background-color: #55DFB4;
+    top: 53px;
 }
+
+.size-2{
+    width: 405px;
+    height: 500px;
+    box-shadow: 5px 10px 27px #07ACE629;
+}
+
+.pricing h2{
+    margin-bottom: 50px;
+}
+
+.price-box li.correct::before{
+    content: "";
+    width: 11px;
+    height: 11px;
+    margin-right: 0.5em;
+    background-image: url("../images/Ckechmark-1.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.price-box span{
+    font-weight: 700;
+    font-size: 12px;
+}
+
