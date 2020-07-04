@@ -488,3 +488,84 @@ h5{
     font-size: 12px;
 }
 
+/*pricing styling end*/
+/*contact start*/
+
+.contact{
+    width: 1352px;
+    height: 600px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-evenly;
+    border-left: 1px solid var(--border-color);
+    border-right: 1px solid var(--border-color);
+}
+
+.informations{
+    width: 350px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+form{
+    width: 350px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-top: 130px;
+}
+
+form section{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.informations > p{
+    font-family: "Open Sans";
+    font-size: 16px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+.info{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.info p{
+    font-family: "Open Sans";
+    text-align: left;
+    color: #A5A5A5;
+    font-weight: 700;
+    display: flex;
+    align-items: center;
+}
+
+.info .mail::before{
+    content: "";
+    width: 27px;
+    height: 27px;
+    margin-right: 0.5em;
+    background-image: url(../images/Mail\ Icon.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: block;
+}
+
+.info .phone::before{
+    content: "";
+    width: 27px;
+    height: 27px;
+    margin-right: 0.5em;
+    background-image: url(../images/Phone\ Icon.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: block;
+}
+
+.phone{
+    margin-left: 20px;
+}
