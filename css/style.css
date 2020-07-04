@@ -69,7 +69,7 @@ header{
 .page-nav-list li a:hover{
     color: #000000;
     border-bottom: 3px solid #08A6E4;
-    padding: 20px;
+    padding-bottom: 25px;
 }
 
 /*header style end*/
@@ -364,6 +364,8 @@ h4{
 /*main styling end*/
 /* price box styling */
 
-.price{
-
+.pricing{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
 }
