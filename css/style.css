@@ -408,6 +408,7 @@ h5{
     font-size: 14px;
     text-align: center;
     margin-top: 20px;
+    display: flex;
 }
 
 .btn-2{
@@ -447,7 +448,7 @@ h5{
 
 .style-3 .btn-2{
     background-color: #55DFB4;
-    top: 53px;
+    top: 51px;
 }
 
 .size-2{
@@ -465,9 +466,21 @@ h5{
     width: 11px;
     height: 11px;
     margin-right: 0.5em;
-    background-image: url("../images/Ckechmark-1.svg");
+    background-image: url(../images/Ckechmark-1.svg);
     background-repeat: no-repeat;
     background-size: cover;
+    display: block;
+}
+
+.price-box li.wrong::before{
+    content: "";
+    width: 11px;
+    height: 11px;
+    margin-right: 0.5em;
+    background-image: url(../images/Close.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: block;
 }
 
 .price-box span{
