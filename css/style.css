@@ -588,8 +588,27 @@ input[type="email"]
     text-transform: uppercase;
 }
 
+.btn-3{
+    background-color: #08A6E4;
+    color: #ffffff;
+    border-radius: 35px;
+    font-family: "Open Sans";
+    font-weight: 700;
+    font-size: 13px;
+    width: 226px;
+    height: 57px;
+    border: 0;
+    box-shadow: 5px 10px 14px #07ACE629;
+    transition: 0.5s;
+}
 
+.btn-3:hover{
+    background-color: #2ac8f6;
+}
 
+.btn-3:active{
+    box-shadow: 5px 10px 14px rgba(0,0,0,0.5) inset;    
+}
 
 
 /*contact end*/
