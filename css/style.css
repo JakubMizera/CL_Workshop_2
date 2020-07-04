@@ -603,10 +603,17 @@ input[type="email"]
     border: 1px solid var(--border-color);
     box-shadow: 0px -5px 40px  #00000029;
     background: #F7F7F7;
+    height: 89px;
+}
+
+.foot-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
 .foot-container p{
-    margin: 6px 0 10px 136px;
+    margin: 6px 0 0 136px;
     font-size: 11px;
     text-align: left;
     color: #A5A5A5;
