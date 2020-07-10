@@ -1,0 +1,30 @@
+@mixin desktop {
+  @media screen and (min-width: #{$desktop}) {
+    @content;
+  }
+}
+
+@mixin container($widthSize) {
+  width: $widthSize;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 70px;
+  box-shadow: 0 3px 6px $color-shadow;
+  border: 1px solid $color-border;
+}
+
+@mixin page-logo($marginSize) {
+  color: $color-logo;
+  text-decoration: none;
+  font-size: 2rem;
+  font-weight: 300;
+  margin-left: $marginSize;
+}
+
+@mixin page-nav-list($marginSize) {
+  display: flex;
+  justify-content: space-between;
+  margin-right: $marginSize;
+}
+
