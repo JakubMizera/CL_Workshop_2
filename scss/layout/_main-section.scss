@@ -1,6 +1,9 @@
 .main-container {
     padding: 0 15px;
-    @include main-container(100%, 1395px);
+    @include main-container(100%, 150vh);
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
     @include desktop {
         margin: 0 auto;
         @include main-container(1352px, 1395px);
@@ -9,8 +12,12 @@
 
 .box {
     @include box(90%, 370px);
+    margin-top: 40px;
+    flex-direction: column;
     @include desktop {
         @include box(1124px, 370px);
+        margin-top: 0;
+        flex-direction: row;
     }
 
     .box-text {
