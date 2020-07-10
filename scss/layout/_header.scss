@@ -1,6 +1,7 @@
 .container {
     padding: 0 15px;
     @include container(100%);
+    overflow: hidden;
 
     @include desktop {
         margin: 0 auto;
@@ -17,12 +18,12 @@
 
 .page-nav-list {
     @include page-nav-list(3%);
+    align-items: center;
     @include desktop {
         @include page-nav-list(130px);
     }
     li {
         a {
-            text-decoration: none;
             font-family: "Open Sans";
             font-weight: 700;
             font-size: 11px;
@@ -31,7 +32,6 @@
             text-transform: uppercase;
             margin: 10px;
             @include desktop {
-                text-decoration: none;
                 font-family: "Open Sans";
                 font-weight: 700;
                 font-size: 11px;
