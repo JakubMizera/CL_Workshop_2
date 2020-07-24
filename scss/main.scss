@@ -1,14 +1,14 @@
-@import "../scss/config/reset";
-@import "../scss/config/variables";
-@import "../scss/config/typography";
-@import "../scss/config/mixins";
+@import "generic/reset";
 
+@import "settings";
 
-@import "../scss/elements/buttons";
-@import "../scss/elements/circles";
-
-
-@import "../scss/layout/header";
-@import "../scss/layout/opening";
-@import "../scss/layout/stats";
-@import "../scss/layout/main-section";
+@import "elements/base";
+@import "elements/buttons";
+@import "elements/header";
+@import "elements/opening";
+@import "elements/statistics";
+@import "elements/benefits";
+@import "elements/pricing";
+@import "elements/contact";
+@import "elements/form";
+@import "elements/footer";

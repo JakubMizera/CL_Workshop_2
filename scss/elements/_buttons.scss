@@ -1,24 +1,28 @@
-.btn-1 {
-    font-family: $font-primary;
-    text-align: center;
-    color: #ffffff;
-    font-weight: 700;
-    background-color: $color-logo;
-    border-radius: 40px;
-    padding: 22px 100px;
-    transition: 0.5s;
-    box-shadow: 5px 10px 14px #07ace629;
-    margin-top: 38px;
-    @include desktop {
-        font-family: $font-primary;
-        text-align: center;
-        color: #ffffff;
-        font-weight: 700;
-        background-color: $color-logo;
-        border-radius: 40px;
-        padding: 22px 157px;
-        transition: 0.5s;
-        box-shadow: 5px 10px 14px #07ace629;
-        margin-top: 38px;
-    }
+.btn {
+  color: white;
+  font-weight: bold;
+  display: inline-block;
+  padding: 16px 65px;
+  border-radius: $button-radius;
+  border: none;
+
+
+  &--primary {
+    background-color: $color-primary;
+    border-radius: $button-radius;
+    box-shadow: 3px 10px 14px $color-primary-shadow;
+  }
+
+  &--redish {
+    background-color: $color-redish;
+  }
+
+  &--green {
+    background-color: $color-green;
+  }
+
+  &--large {
+    padding: 22px 155px;
+  }
 }
+
